@@ -265,10 +265,12 @@
     color: #727272;
     margin-top: 20px;
 }
-.third-section-carts{
+
+.third-section-carts {
     display: flex;
     justify-content: space-around;
 }
+
 .section-cart {
     display: flex;
     flex-direction: column;
@@ -288,18 +290,58 @@
 
 .section-cart-title {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #424242;
 }
 
 .section-cart-description {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 23px;
     color: #727272;
 }
 
 /* third section styles --- end --- */
+
+/* fourth section styles --- start --- */
+.fourth-section-container {
+    margin-top: 100px;
+}
+
+.fourth-section-info {
+    text-align: center;
+}
+
+.fourth-section-title {
+    font-weight: 700;
+    font-size: 2.81rem;
+    color: #131313;
+}
+
+.fourth-section-description {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+
+}
+
+.section-logo-carts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.logo-icon {
+    width: 166.76px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+
+/* fourth section styles --- end --- */
+
+
 
 /* body styles end */
 
@@ -393,17 +435,36 @@
     /* second section responsive---- end--- */
 
     /* third section responsive---- start--- */
-    .third-section-info{
+    .third-section-info {
         text-align: center;
         padding: 10px;
     }
-    .third-section-carts{
+
+    .third-section-carts {
         flex-direction: column;
     }
-    .section-cart{
+
+    .section-cart {
         width: 100%;
-        
+
     }
+
     /* third section responsive---- end--- */
+
+    /* fourth section responsive---- start--- */
+    .fourth-section-container{
+        width: auto;
+    }
+    .fourth-section-info{
+        text-align: center;
+        padding: 15px;
+    }
+    .section-logo-carts{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    /* fourth section responsive---- end--- */
 
 }
